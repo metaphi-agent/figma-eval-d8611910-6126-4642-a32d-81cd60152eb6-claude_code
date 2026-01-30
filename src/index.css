@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Primary Colors */
+  --color-primary-500: #4318FF;
+  --color-primary-400: #7551FF;
+  --color-primary-300: #A18AFF;
+
+  /* Secondary Grey */
+  --color-grey-900: #2B3674;
+  --color-grey-700: #707EAE;
+  --color-grey-600: #A3AED0;
+  --color-grey-500: #8F9BBA;
+  --color-grey-400: #CBD5E0;
+  --color-grey-300: #F4F7FE;
+  --color-grey-200: #E9EDF7;
+
+  /* Dark Grey */
+  --color-dark-grey-900: #1B2559;
+  --color-dark-grey-500: #A3AED0;
+
+  /* Semantic Colors */
+  --color-success: #05CD99;
+  --color-error: #EE5D50;
+  --color-warning: #FFCE20;
+  --color-background: #F4F7FE;
+  --color-white: #FFFFFF;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #868CFF 0%, #4318FF 100%);
+
+  /* Shadows */
+  --shadow-card: 0px 4px 40px rgba(112, 144, 176, 0.12);
+
+  /* Border Radius */
+  --radius-sm: 5px;
+  --radius-md: 10px;
+  --radius-lg: 15px;
+  --radius-xl: 20px;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZOIHQ.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZOIHQ.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZOIHQ.woff2) format('woff2');
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-background);
+}
