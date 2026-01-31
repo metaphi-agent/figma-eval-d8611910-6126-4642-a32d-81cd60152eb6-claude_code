@@ -1,0 +1,9 @@
+{
+  "figma_file_key": "ehKJnCyvUqsIf7AQAh8JUb",
+  "total_frames": 3,
+  "frames": [
+    {"name": "Dashboard 1", "node_id": "126:539", "gt_image": "126-539.png", "target_route": "/"},
+    {"name": "Grid-System", "node_id": "126:802", "gt_image": "126-802.png", "target_route": "/dashboard-2"},
+    {"name": "Grid-System-1", "node_id": "126:1341", "gt_image": "126-1341.png", "target_route": "/dashboard-3"}
+  ]
+}
