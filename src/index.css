@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Venus Dashboard Design Tokens from Figma */
+@theme {
+  /* Typography */
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Colors - Primary */
+  --color-primary: #5D5FEF;
+  --color-primary-hover: #4B4DD9;
+
+  /* Colors - Background */
+  --color-background: #F4F7FE;
+  --color-surface: #FFFFFF;
+
+  /* Colors - Grey Scale */
+  --color-grey-200: #E9EDF7;
+  --color-grey-300: #E8EBF6;
+  --color-grey-400: #C5CEE0;
+  --color-grey-600: #A3AED0;
+  --color-grey-700: #707EAE;
+  --color-grey-900: #2B3674;
+
+  /* Colors - Dark Grey */
+  --color-dark-grey-500: #8F9BBA;
+  --color-dark-grey-900: #1B2559;
+
+  /* Colors - Semantic */
+  --color-success: #01B574;
+  --color-error: #EE5D50;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #868CFF 0%, #4318FF 100%);
+
+  /* Shadows */
+  --shadow-soft: 0px 18px 40px rgba(112, 144, 176, 0.12);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-background);
+}
