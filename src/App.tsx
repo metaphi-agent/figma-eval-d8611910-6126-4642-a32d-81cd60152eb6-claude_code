@@ -10,8 +10,8 @@ function App() {
       <Sidebar />
       <Routes>
         <Route path="/" element={<Dashboard />} />
-        <Route path="/grid-1" element={<GridDashboard1 />} />
-        <Route path="/grid-2" element={<GridDashboard2 />} />
+        <Route path="/dashboard-2" element={<GridDashboard1 />} />
+        <Route path="/dashboard-3" element={<GridDashboard2 />} />
         <Route path="/activity" element={<Dashboard />} />
         <Route path="/library" element={<Dashboard />} />
         <Route path="/security" element={<Dashboard />} />
